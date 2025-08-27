@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTU Moodle Tabs Component</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>LTU Moodle HTML5 Generator</h1>
+            <p>Interactive Tabs Component for MOODLE LMS</p>
+        </header>
+
+        <main class="main-content">
+            <div class="tabs-container">
+                <div class="tabs-header">
+                    <button class="tab-button active" onclick="showTab('tab1')">Introduction</button>
+                    <button class="tab-button" onclick="showTab('tab2')">Features</button>
+                    <button class="tab-button" onclick="showTab('tab3')">Usage</button>
+                    <button class="tab-button" onclick="showTab('tab4')">Examples</button>
+                </div>
+                
+                <div id="tab1" class="tab-content active">
+                    <h3>Welcome to LTU Moodle Generator</h3>
+                    <p>This interactive tabs component demonstrates the HTML5 + JavaScript capabilities that can be integrated into MOODLE LMS. The component is built with pure HTML, CSS, and JavaScript with no external dependencies.</p>
+                    <p>Key features include:</p>
+                    <ul>
+                        <li>Responsive design that works on all devices</li>
+                        <li>Smooth animations and transitions</li>
+                        <li>Accessibility compliant</li>
+                        <li>Easy to customize and extend</li>
+                    </ul>
+                </div>
+                
+                <div id="tab2" class="tab-content">
+                    <h3>Component Features</h3>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h4>Responsive Design</h4>
+                            <p>Automatically adapts to different screen sizes and devices.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Accessibility</h4>
+                            <p>Built with WCAG guidelines in mind for inclusive design.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Performance</h4>
+                            <p>Lightweight and fast loading with minimal JavaScript.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h4>Customizable</h4>
+                            <p>Easy to modify colors, fonts, and layout to match your theme.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="tab3" class="tab-content">
+                    <h3>How to Use</h3>
+                    <p>To integrate this component into your MOODLE course:</p>
+                    <ol>
+                        <li>Copy the HTML structure from this page</li>
+                        <li>Include the CSS styles in your course</li>
+                        <li>Add the JavaScript functionality</li>
+                        <li>Customize the content and styling as needed</li>
+                    </ol>
+                    <div class="code-example">
+                        <h4>Basic Implementation:</h4>
+                        <pre><code>&lt;div class="tabs-container"&gt;
+    &lt;div class="tabs-header"&gt;
+        &lt;button class="tab-button active" onclick="showTab('tab1')"&gt;Tab 1&lt;/button&gt;
+        &lt;button class="tab-button" onclick="showTab('tab2')"&gt;Tab 2&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div id="tab1" class="tab-content active"&gt;Content here&lt;/div&gt;
+    &lt;div id="tab2" class="tab-content"&gt;More content&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                </div>
+                
+                <div id="tab4" class="tab-content">
+                    <h3>Interactive Examples</h3>
+                    <p>Here are some examples of how you can use this component:</p>
+                    
+                    <div class="example-section">
+                        <h4>Course Navigation</h4>
+                        <p>Use tabs to organize different sections of your course content.</p>
+                    </div>
+                    
+                    <div class="example-section">
+                        <h4>Assessment Types</h4>
+                        <p>Separate different types of assessments or activities.</p>
+                    </div>
+                    
+                    <div class="example-section">
+                        <h4>Resource Categories</h4>
+                        <p>Group related resources and materials together.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 La Trobe University - CSE3CWA/CSE5006 Assignment 1</p>
+            <p>Student: John Doe | Student Number: 12345678</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
